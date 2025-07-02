@@ -1,17 +1,64 @@
-.hero .full-bg {
-    position: absolute;
-    top: 0; left: 0;
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    z-index: 1;
-}
-.hero .hero-content {
-    position: relative;
-    z-index: 2;
-    color: #fff;
-    text-align: center;
-    top: 40%;
-    transform: translateY(-40%);
-    width: 100%;
-}
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>キャンプギア紹介！アウトドアテント編</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Camp Gear</h1>
+        <nav>
+            <ul>
+                <li><a href="#product">商品紹介</a></li>
+                <li><a href="#reviews">レビュー</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="hero.jpg" alt="大自然の中でのテント" class="full-bg">
+        <div class="hero-content">
+            <h2>大自然の中で、最高のテント体験を</h2>
+            <p>軽量・防水・簡単設営　家族で使えるアウトドアテント</p>
+        </div>
+    </section>
+
+    <section id="product" class="product">
+        <h3>製品の特徴</h3>
+        <ul>
+            <li>超軽量アルミフレーム</li>
+            <li>完全防水・通気性抜群の素材</li>
+            <li>収納バッグ付きで持ち運び楽々</li>
+        </ul>
+        <img src="aa.jpg" alt="キャンプテントの画像">
+        <p class="price">価格：¥19,000(税込)</p>
+    </section>
+
+    <section id="reviews" class="reviews">
+        <h3>ユーザーレビュー</h3>
+       <div class="review">
+            <p>----- とても快適で設営も簡単でした（山田さん一家）</p>
+        </div>
+        <div class="review">
+            <p>----- 家族３人でゆったり寝れました（鈴木さん一家）</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h3>お問い合わせ</h3>
+        <button onclick="alert('お問い合わせフォームは準備中です')">問い合わせる</button>
+    </section>
+
+    <footer>
+        <p>&copy;2025 CampGear. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
